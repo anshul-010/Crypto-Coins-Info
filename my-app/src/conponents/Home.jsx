@@ -1,8 +1,14 @@
 import React from 'react'
+import Header from './Header'
+import Banner from './Banner'
+import "./Home.css"
 
 const Home = () => {
   return (
-    <div>Home</div>
+    <div id='container' >
+      <Header/>
+      <Banner/>
+    </div>
   )
 }
 
