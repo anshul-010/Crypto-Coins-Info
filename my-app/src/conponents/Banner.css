@@ -1,0 +1,10 @@
+.banner{
+    width: 100%;
+    height: 70vh;
+    background-image: url("https://img.freepik.com/premium-vector/forex-trading-wallpaper_23-2148584743.jpg?w=2000");
+}
+
+.text{
+    color: aliceblue;
+    text-align: center;
+}
