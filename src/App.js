@@ -1,29 +1,17 @@
-import { makeStyles } from "@material-ui/core";
-import Homepage from "./Pages/HomePage";
-import "./App.css";
-import { BrowserRouter, Route } from "react-router-dom";
-import CoinPage from "./Pages/CoinPage";
-import Header from "./components/Header";
+import './App.css';
+import AllRoute from './Routes/AllRoute';
+import Header from './conponents/Header';
+import Home from './conponents/Home';
+import Login from './conponents/Login';
+import SignUp from './conponents/SignUp';
 
-const useStyles = makeStyles(() => ({
-  App: {
-    backgroundColor: "#14161a",
-    color: "white",
-    minHeight: "100vh",
-  },
-}));
 
 function App() {
-  const classes = useStyles();
-
   return (
-    <BrowserRouter>
-      <div className={classes.App}>
-        <Header />
-        <Route path="/" component={Homepage} exact />
-        <Route path="/coins/:id" component={CoinPage} exact />
-      </div>
-    </BrowserRouter>
+    <>
+      <Header/>
+      <AllRoute/>
+    </>
   );
 }
 
