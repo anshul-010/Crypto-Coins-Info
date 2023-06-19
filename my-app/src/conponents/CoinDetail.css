@@ -32,3 +32,15 @@
     font-size: larger;
     color: rgb(40, 39, 39);
 }
+
+@media (min-width:0px) and (max-width:700px){
+    .coinContainer{
+        display: flex;
+        flex-direction: column;
+        gap: 80px;
+    }
+    .sideBar{
+        width: 100%;
+
+    }
+}
