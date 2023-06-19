@@ -6,6 +6,8 @@ import reportWebVitals from './reportWebVitals';
 import { createRoot } from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import ContextProvider from './Context/ContextProvider';
+import 'react-alice-carousel/lib/alice-carousel.css';
+
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

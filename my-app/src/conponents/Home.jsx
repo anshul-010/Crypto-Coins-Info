@@ -2,12 +2,15 @@ import React from 'react'
 import Header from './Header'
 import Banner from './Banner'
 import "./Home.css"
+import CoinTable from './CoinTable'
+import AllRoute from '../Routes/AllRoute'
+import CoinDetail from './CoinDetail'
 
 const Home = () => {
   return (
     <div id='container' >
-      <Header/>
       <Banner/>
+      <CoinTable/>
     </div>
   )
 }

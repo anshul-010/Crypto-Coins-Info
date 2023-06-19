@@ -7,3 +7,21 @@
     justify-content: space-between;
     align-items: center;
 }
+
+#selet_currency{
+    width: 80px;
+    padding: 7px;
+    outline: none;
+    background-color: rgb(119, 160, 206) ;
+    font-size: medium;
+    border-radius: 2px;
+}
+
+.log-btn{
+    width: 130%;
+    padding: 7px;
+    border: none;
+    background-color: rgb(87, 176, 211);
+    border-radius: 2px;
+
+}

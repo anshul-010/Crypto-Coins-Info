@@ -8,7 +8,7 @@ function ContextProvider({children}) {
 
     const [currency,setCurrency] =  useState("INR")
     const [symbol, setSymbol] = useState("₹")
-
+    const [login,setLogin] = useState(false)
     useEffect(() => {
         if(currency==="INR"){
             setSymbol("₹")
@@ -20,7 +20,7 @@ function ContextProvider({children}) {
     
 
   return (
-    <AppContext.Provider value={{currency,setCurrency,symbol}} >
+    <AppContext.Provider value={{currency,setCurrency,symbol,login,setLogin}} >
         {children}
     </AppContext.Provider>
     
