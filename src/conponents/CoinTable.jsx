@@ -30,7 +30,7 @@ const CoinTable = () => {
 
     // console.log(Coins)
     useEffect(()=>{
-        // fetchCoinData(currency)
+        fetchCoinData(currency)
       },[currency,page])
 
       function handleSearch(){

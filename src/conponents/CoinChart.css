@@ -1,5 +1,5 @@
 .coinChart{
-    width: 77%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -35,6 +35,6 @@
         width: 22%;
         text-align: center;
         padding: 5px 15px;
-        /* background-color: aliceblue; */
+       
     }
 }

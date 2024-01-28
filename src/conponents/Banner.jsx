@@ -17,7 +17,7 @@ function Banner() {
       })
   }
   useEffect(()=>{
-    // fetchTrandingCoin(currency)
+    fetchTrandingCoin(currency)
   },[currency])
 
   function numberWithCommas(x){

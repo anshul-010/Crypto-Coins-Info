@@ -36,6 +36,19 @@
     border: none;
 }
 
+#guest{
+    border: 1px solid;
+    width: 40%;
+    margin: 20px auto;
+    padding: 10px;
+    font-weight: 500;
+    background-color: goldenrod;
+    color: white;
+}
+#guest:hover{
+    cursor: pointer;
+}
+
 @media (min-width:0px) and (max-width:500px) {
     .formPage{
         width: 80%;   

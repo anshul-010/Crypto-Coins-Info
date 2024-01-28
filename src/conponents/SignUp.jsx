@@ -30,11 +30,11 @@ const SignUp = () => {
     <div className='formPage'>
         <form onSubmit={handleSubmit}  className='form' >
             <h1>Sign up</h1>
-            <input type="email" placeholder='email' value={userData.email}  name='email' onChange={handleChange} />
+            <input type="email" placeholder='email' value={userData.email}  name='email' onChange={handleChange} required/>
             <br />
-            <input type="number" placeholder='mobile no.' value={userData.mobile_no} name='mobile_no' onChange={handleChange} />
+            <input type="number" placeholder='mobile no.' value={userData.mobile_no} name='mobile_no' onChange={handleChange} required/>
             <br />
-            <input type="password" placeholder='password' value={userData.password} name='password' onChange={handleChange} />
+            <input type="password" placeholder='password' value={userData.password} name='password' onChange={handleChange} required/>
             <br />
             <input type="submit" className='submit'value="Sign up"/>
         </form>

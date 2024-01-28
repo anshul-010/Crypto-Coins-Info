@@ -25,7 +25,7 @@ const CoinChart = ({coin}) => {
   }
 
   useEffect(()=>{
-    // fetchCoinChartData()
+    fetchCoinChartData()
   },[currency,days])
 
   console.log(chartData)

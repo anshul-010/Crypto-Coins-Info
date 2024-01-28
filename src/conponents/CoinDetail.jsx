@@ -24,7 +24,7 @@ function CoinDetail() {
   }
 
   useEffect(()=>{
-    // fetchSingleCoin()
+    fetchSingleCoin()
   },[])
 
   // console.log(singleCoin)
@@ -59,7 +59,7 @@ function CoinDetail() {
         </div>
         </div>
       </div>
-      <div>
+      <div className='coin-cht' >
       {/* CoinChart */}
       <CoinChart coin={singleCoin} />
       </div>
