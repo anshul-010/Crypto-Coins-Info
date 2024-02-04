@@ -20,8 +20,8 @@
     background-color: rgb(9, 5, 76);
     color: white;
     font-size: larger;
+    font-weight: bold;
     border: none;
-    
 }
 
 .bottom-btn{
@@ -51,10 +51,21 @@
 
 @media (min-width:0px) and (max-width:500px) {
     .formPage{
-        width: 80%;   
+        width: 90%;   
     }
     .form>input{
-        width: 80%;
+        width: 90%; 
+        margin: 5px;
+        padding: 7px;
+
+    }
+    #guest{
+        width: 50%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+    .form>h1{
+        margin-bottom: 5px;
     }
 }
 @media (min-width:501px) and (max-width:800px) {
@@ -63,5 +74,10 @@
     }
     .form>input{
         width: 70%;
+    }
+    #guest{
+        width: 50%;
+        margin: 20px auto;
+        padding: 10px;
     }
 }
