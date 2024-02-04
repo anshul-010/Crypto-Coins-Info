@@ -1,0 +1,30 @@
+#main{
+    color: lightgreen;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 4%, rgba(4,4,55,1) 35%, rgba(3,45,94,1) 50%, rgba(0,176,220,1) 70%, rgba(0,195,238,1) 73%, rgba(0,186,224,1) 74%, rgba(3,45,94,1) 82%, rgba(4,4,55,1) 100%);
+    padding: 10px 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    overflow: hidden;
+    z-index: 10;
+}
+
+#selet_currency{
+    width: 80px;
+    padding: 7px;
+    outline: none;
+    background-color: rgb(119, 160, 206) ;
+    font-size: medium;
+    border-radius: 2px;
+}
+
+.log-btn{
+    width: 130%;
+    padding: 7px;
+    border: none;
+    background-color: rgb(87, 176, 211);
+    border-radius: 2px;
+
+}
